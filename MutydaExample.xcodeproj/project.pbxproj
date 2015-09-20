@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840C5F8B1BA5DD48002403D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5F8A1BA5DD48002403D1 /* Foundation.framework */; };
+		840C5F8D1BA5DD48002403D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5F8C1BA5DD48002403D1 /* CoreGraphics.framework */; };
+		840C5F8F1BA5DD48002403D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5F8E1BA5DD48002403D1 /* UIKit.framework */; };
+		840C5F951BA5DD48002403D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840C5F931BA5DD48002403D1 /* InfoPlist.strings */; };
+		840C5F971BA5DD48002403D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C5F961BA5DD48002403D1 /* main.m */; };
+		840C5F9B1BA5DD48002403D1 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C5F9A1BA5DD48002403D1 /* MSAppDelegate.m */; };
+		840C5F9E1BA5DD48002403D1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C5F9C1BA5DD48002403D1 /* Main_iPhone.storyboard */; };
+		840C5FA11BA5DD48002403D1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C5F9F1BA5DD48002403D1 /* Main_iPad.storyboard */; };
+		840C5FA41BA5DD48002403D1 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C5FA31BA5DD48002403D1 /* MSViewController.m */; };
+		840C5FA61BA5DD48002403D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C5FA51BA5DD48002403D1 /* Images.xcassets */; };
+		840C5FAD1BA5DD48002403D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5FAC1BA5DD48002403D1 /* XCTest.framework */; };
+		840C5FAE1BA5DD48002403D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5F8A1BA5DD48002403D1 /* Foundation.framework */; };
+		840C5FAF1BA5DD48002403D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5F8E1BA5DD48002403D1 /* UIKit.framework */; };
+		840C5FB71BA5DD48002403D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840C5FB51BA5DD48002403D1 /* InfoPlist.strings */; };
+		840C5FB91BA5DD48002403D1 /* MutydaExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C5FB81BA5DD48002403D1 /* MutydaExampleTests.m */; };
+		840C5FC31BA5DDF3002403D1 /* libMutyda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C5FC21BA5DDF3002403D1 /* libMutyda.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840C5FB01BA5DD48002403D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C5F7F1BA5DD48002403D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C5F861BA5DD48002403D1;
+			remoteInfo = MutydaExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840C5F871BA5DD48002403D1 /* MutydaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutydaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C5F8A1BA5DD48002403D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		840C5F8C1BA5DD48002403D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		840C5F8E1BA5DD48002403D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		840C5F921BA5DD48002403D1 /* MutydaExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutydaExample-Info.plist"; sourceTree = "<group>"; };
+		840C5F941BA5DD48002403D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840C5F961BA5DD48002403D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840C5F981BA5DD48002403D1 /* MutydaExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MutydaExample-Prefix.pch"; sourceTree = "<group>"; };
+		840C5F991BA5DD48002403D1 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		840C5F9A1BA5DD48002403D1 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		840C5F9D1BA5DD48002403D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		840C5FA01BA5DD48002403D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		840C5FA21BA5DD48002403D1 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		840C5FA31BA5DD48002403D1 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		840C5FA51BA5DD48002403D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840C5FAB1BA5DD48002403D1 /* MutydaExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutydaExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C5FAC1BA5DD48002403D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		840C5FB41BA5DD48002403D1 /* MutydaExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutydaExampleTests-Info.plist"; sourceTree = "<group>"; };
+		840C5FB61BA5DD48002403D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840C5FB81BA5DD48002403D1 /* MutydaExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutydaExampleTests.m; sourceTree = "<group>"; };
+		840C5FC21BA5DDF3002403D1 /* libMutyda.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMutyda.a; path = lib/libMutyda.a; sourceTree = "<group>"; };
+		840C5FC61BA5DE7A002403D1 /* Mutyda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutyda.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840C5F841BA5DD48002403D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5FC31BA5DDF3002403D1 /* libMutyda.a in Frameworks */,
+				840C5F8D1BA5DD48002403D1 /* CoreGraphics.framework in Frameworks */,
+				840C5F8F1BA5DD48002403D1 /* UIKit.framework in Frameworks */,
+				840C5F8B1BA5DD48002403D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C5FA81BA5DD48002403D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5FAD1BA5DD48002403D1 /* XCTest.framework in Frameworks */,
+				840C5FAF1BA5DD48002403D1 /* UIKit.framework in Frameworks */,
+				840C5FAE1BA5DD48002403D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840C5F7E1BA5DD48002403D1 = {
+			isa = PBXGroup;
+			children = (
+				840C5FC41BA5DE7A002403D1 /* include */,
+				840C5F901BA5DD48002403D1 /* MutydaExample */,
+				840C5FB21BA5DD48002403D1 /* MutydaExampleTests */,
+				840C5F891BA5DD48002403D1 /* Frameworks */,
+				840C5F881BA5DD48002403D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840C5F881BA5DD48002403D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840C5F871BA5DD48002403D1 /* MutydaExample.app */,
+				840C5FAB1BA5DD48002403D1 /* MutydaExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840C5F891BA5DD48002403D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840C5FC21BA5DDF3002403D1 /* libMutyda.a */,
+				840C5F8A1BA5DD48002403D1 /* Foundation.framework */,
+				840C5F8C1BA5DD48002403D1 /* CoreGraphics.framework */,
+				840C5F8E1BA5DD48002403D1 /* UIKit.framework */,
+				840C5FAC1BA5DD48002403D1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840C5F901BA5DD48002403D1 /* MutydaExample */ = {
+			isa = PBXGroup;
+			children = (
+				840C5F991BA5DD48002403D1 /* MSAppDelegate.h */,
+				840C5F9A1BA5DD48002403D1 /* MSAppDelegate.m */,
+				840C5F9C1BA5DD48002403D1 /* Main_iPhone.storyboard */,
+				840C5F9F1BA5DD48002403D1 /* Main_iPad.storyboard */,
+				840C5FA21BA5DD48002403D1 /* MSViewController.h */,
+				840C5FA31BA5DD48002403D1 /* MSViewController.m */,
+				840C5FA51BA5DD48002403D1 /* Images.xcassets */,
+				840C5F911BA5DD48002403D1 /* Supporting Files */,
+			);
+			path = MutydaExample;
+			sourceTree = "<group>";
+		};
+		840C5F911BA5DD48002403D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840C5F921BA5DD48002403D1 /* MutydaExample-Info.plist */,
+				840C5F931BA5DD48002403D1 /* InfoPlist.strings */,
+				840C5F961BA5DD48002403D1 /* main.m */,
+				840C5F981BA5DD48002403D1 /* MutydaExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840C5FB21BA5DD48002403D1 /* MutydaExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				840C5FB81BA5DD48002403D1 /* MutydaExampleTests.m */,
+				840C5FB31BA5DD48002403D1 /* Supporting Files */,
+			);
+			path = MutydaExampleTests;
+			sourceTree = "<group>";
+		};
+		840C5FB31BA5DD48002403D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840C5FB41BA5DD48002403D1 /* MutydaExampleTests-Info.plist */,
+				840C5FB51BA5DD48002403D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840C5FC41BA5DE7A002403D1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				840C5FC51BA5DE7A002403D1 /* Mutyda */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		840C5FC51BA5DE7A002403D1 /* Mutyda */ = {
+			isa = PBXGroup;
+			children = (
+				840C5FC61BA5DE7A002403D1 /* Mutyda.h */,
+			);
+			path = Mutyda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840C5F861BA5DD48002403D1 /* MutydaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C5FBC1BA5DD48002403D1 /* Build configuration list for PBXNativeTarget "MutydaExample" */;
+			buildPhases = (
+				840C5F831BA5DD48002403D1 /* Sources */,
+				840C5F841BA5DD48002403D1 /* Frameworks */,
+				840C5F851BA5DD48002403D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutydaExample;
+			productName = MutydaExample;
+			productReference = 840C5F871BA5DD48002403D1 /* MutydaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840C5FAA1BA5DD48002403D1 /* MutydaExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C5FBF1BA5DD48002403D1 /* Build configuration list for PBXNativeTarget "MutydaExampleTests" */;
+			buildPhases = (
+				840C5FA71BA5DD48002403D1 /* Sources */,
+				840C5FA81BA5DD48002403D1 /* Frameworks */,
+				840C5FA91BA5DD48002403D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C5FB11BA5DD48002403D1 /* PBXTargetDependency */,
+			);
+			name = MutydaExampleTests;
+			productName = MutydaExampleTests;
+			productReference = 840C5FAB1BA5DD48002403D1 /* MutydaExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840C5F7F1BA5DD48002403D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "MeshSoft Ltd";
+				TargetAttributes = {
+					840C5FAA1BA5DD48002403D1 = {
+						TestTargetID = 840C5F861BA5DD48002403D1;
+					};
+				};
+			};
+			buildConfigurationList = 840C5F821BA5DD48002403D1 /* Build configuration list for PBXProject "MutydaExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840C5F7E1BA5DD48002403D1;
+			productRefGroup = 840C5F881BA5DD48002403D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840C5F861BA5DD48002403D1 /* MutydaExample */,
+				840C5FAA1BA5DD48002403D1 /* MutydaExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840C5F851BA5DD48002403D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5FA11BA5DD48002403D1 /* Main_iPad.storyboard in Resources */,
+				840C5FA61BA5DD48002403D1 /* Images.xcassets in Resources */,
+				840C5F9E1BA5DD48002403D1 /* Main_iPhone.storyboard in Resources */,
+				840C5F951BA5DD48002403D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C5FA91BA5DD48002403D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5FB71BA5DD48002403D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840C5F831BA5DD48002403D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5F9B1BA5DD48002403D1 /* MSAppDelegate.m in Sources */,
+				840C5FA41BA5DD48002403D1 /* MSViewController.m in Sources */,
+				840C5F971BA5DD48002403D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C5FA71BA5DD48002403D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C5FB91BA5DD48002403D1 /* MutydaExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840C5FB11BA5DD48002403D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C5F861BA5DD48002403D1 /* MutydaExample */;
+			targetProxy = 840C5FB01BA5DD48002403D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840C5F931BA5DD48002403D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C5F941BA5DD48002403D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		840C5F9C1BA5DD48002403D1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C5F9D1BA5DD48002403D1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		840C5F9F1BA5DD48002403D1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C5FA01BA5DD48002403D1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		840C5FB51BA5DD48002403D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C5FB61BA5DD48002403D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840C5FBA1BA5DD48002403D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SOURCE_HOME/include/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840C5FBB1BA5DD48002403D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SOURCE_HOME/include\n/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840C5FBD1BA5DD48002403D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutydaExample/MutydaExample-Prefix.pch";
+				INFOPLIST_FILE = "MutydaExample/MutydaExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		840C5FBE1BA5DD48002403D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutydaExample/MutydaExample-Prefix.pch";
+				INFOPLIST_FILE = "MutydaExample/MutydaExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		840C5FC01BA5DD48002403D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutydaExample.app/MutydaExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutydaExample/MutydaExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MutydaExampleTests/MutydaExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		840C5FC11BA5DD48002403D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutydaExample.app/MutydaExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutydaExample/MutydaExample-Prefix.pch";
+				INFOPLIST_FILE = "MutydaExampleTests/MutydaExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840C5F821BA5DD48002403D1 /* Build configuration list for PBXProject "MutydaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C5FBA1BA5DD48002403D1 /* Debug */,
+				840C5FBB1BA5DD48002403D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C5FBC1BA5DD48002403D1 /* Build configuration list for PBXNativeTarget "MutydaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C5FBD1BA5DD48002403D1 /* Debug */,
+				840C5FBE1BA5DD48002403D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840C5FBF1BA5DD48002403D1 /* Build configuration list for PBXNativeTarget "MutydaExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C5FC01BA5DD48002403D1 /* Debug */,
+				840C5FC11BA5DD48002403D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840C5F7F1BA5DD48002403D1 /* Project object */;
+}
